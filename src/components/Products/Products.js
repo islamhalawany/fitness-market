@@ -12,7 +12,7 @@ const Products = ({ products, onAddToCart }) => {
   if (!products.length) return <p>Loading...</p>;
 
   return (
-    <main className={classes.content}>
+    <div className={classes.content}>
       <div className={classes.toolbar} />
       <HeroSection />
       <Grid container justify="center" spacing={4}>
@@ -23,7 +23,7 @@ const Products = ({ products, onAddToCart }) => {
         ))}
       </Grid>
       <Footer />
-    </main>
+    </div>
   );
 };
 

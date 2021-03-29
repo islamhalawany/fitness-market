@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/
 
 
 const Layout = (props) => {
